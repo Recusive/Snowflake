@@ -1,0 +1,10 @@
+{
+    "image": "ghcr.io/snowflake/lapdev-devcontainer-snowflake",
+    "forwardPorts": [6080],
+    "portsAttributes": {
+        "6080": {
+            "label": "VNC",
+        }
+    }
+}
+

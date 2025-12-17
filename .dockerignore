@@ -1,0 +1,9 @@
+.github
+.vscode
+.snowflake
+docs
+extra/linux/docker
+extra/macos
+extra/windows
+target
+snowflake.spec

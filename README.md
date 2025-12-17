@@ -1,86 +1,69 @@
-<h1 align="center">
-  <a href="https://snowflake.build" target="_blank">
-  <img src="extra/images/logo.png" width=200 height=200/><br>
-  Snowflake
-  </a>
-</h1>
-
-<h4 align="center">Lightning-fast and Powerful Code Editor</h4>
-
-<div align="center">
-  <a href="https://snowflake.build" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=Website&message=snowflake.build&color=blue" alt="Snowflake Website">
-  </a>
-  <a href="https://github.com/Recusive/Snowflake/releases" target="_blank">
-    <img src="https://img.shields.io/github/v/release/Recusive/Snowflake?label=Release" alt="Release">
-  </a>
-  <a href="https://github.com/Recusive/Snowflake/blob/main/LICENSE" target="_blank">
-    <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
-  </a>
-</div>
-<br/>
-
-**Snowflake** is a lightning-fast, modern code editor built entirely in Rust. Designed for performance and extensibility, Snowflake delivers a seamless coding experience with intelligent features powered by LSP and a beautiful, responsive UI.
-
 <p align="center">
-  <i>Built by <a href="https://snowflake.build">Recursive Labs</a></i>
+  <a href="https://snowflake.build" target="_blank">
+    <img src="extra/images/logo.png" width="180" height="180" alt="Snowflake"/>
+  </a>
 </p>
 
-![Snowflake Screenshot](https://github.com/Recusive/Snowflake/blob/main/extra/images/screenshot.png?raw=true)
+<h1 align="center">Snowflake</h1>
+
+<p align="center">
+  <strong>Lightning-fast, modern code editor built in Rust</strong>
+</p>
+
+<p align="center">
+  <a href="https://snowflake.build">
+    <img src="https://img.shields.io/static/v1?label=Website&message=snowflake.build&color=E07A6B&style=flat-square" alt="Website">
+  </a>
+  <a href="https://github.com/Recusive/Snowflake/releases">
+    <img src="https://img.shields.io/github/v/release/Recusive/Snowflake?color=C4A98B&style=flat-square&label=Release" alt="Release">
+  </a>
+  <a href="https://github.com/Recusive/Snowflake/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-Apache%202.0-8B7355?style=flat-square" alt="License">
+  </a>
+</p>
+
+---
+
+**Snowflake** is a high-performance code editor designed for developers who value speed, simplicity, and a beautiful coding experience. Built entirely in Rust with GPU-accelerated rendering, Snowflake delivers instant response times and a smooth, native feel.
 
 ## Features
 
-- **Blazing Fast Performance** - Written in pure Rust with [Rope Science](https://xi-editor.io/docs/rope_science_00.html) for lightning-fast text manipulation
-- **GPU-Accelerated Rendering** - Powered by [wgpu](https://github.com/gfx-rs/wgpu) for smooth, responsive UI
-- **Intelligent Code Completion** - Built-in LSP support for completions, diagnostics, and code actions
-- **Modal Editing** - First-class Vim-style editing (toggleable)
-- **Remote Development** - Seamlessly work on remote machines with full local experience
-- **Plugin System** - Extend functionality with WASI-compatible plugins (Rust, C, AssemblyScript)
-- **Integrated Terminal** - Execute commands without leaving the editor
+- **Blazing Fast** — Written in pure Rust with rope-based text handling for instant operations on files of any size
+- **GPU-Accelerated** — Smooth 60fps rendering powered by wgpu
+- **Intelligent Editing** — Built-in LSP support for completions, diagnostics, and code actions
+- **Modal Editing** — First-class Vim-style keybindings (toggleable)
+- **Remote Development** — Work seamlessly on remote machines
+- **Extensible** — Plugin system supporting Rust, C, and AssemblyScript via WASI
+- **Integrated Terminal** — Full terminal emulator built-in
 
 ## Installation
 
-### Pre-built Releases
+### Download
 
-Download the latest release for your platform:
-- [macOS](https://github.com/Recusive/Snowflake/releases)
-- [Windows](https://github.com/Recusive/Snowflake/releases)
-- [Linux](https://github.com/Recusive/Snowflake/releases)
+Get the latest release for your platform from [GitHub Releases](https://github.com/Recusive/Snowflake/releases).
 
 ### Build from Source
 
 ```bash
-# Clone the repository
 git clone https://github.com/Recusive/Snowflake.git
 cd Snowflake
-
-# Build release version
 cargo build --release
-
-# Run
 cargo run --release -p snowflake-app
 ```
 
-#### Requirements
-- Rust 1.87.0 or later
-- Platform-specific dependencies (see [Building Guide](docs/building-from-source.md))
-
-## Documentation
-
-- [Building from Source](docs/building-from-source.md)
-- [Installing with Package Manager](docs/installing-with-package-manager.md)
+**Requirements:** Rust 1.87.0+
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-Snowflake is released under the [Apache License 2.0](LICENSE).
+Apache License 2.0 — see [LICENSE](LICENSE)
 
 ---
 
 <p align="center">
-  <b>Recursive Labs</b><br>
+  <strong>Recursive Labs</strong><br>
   <a href="https://snowflake.build">snowflake.build</a>
 </p>
